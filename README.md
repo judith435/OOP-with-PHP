@@ -77,4 +77,6 @@ Computer manufacturer: AMD, model: , Price: 0
 
 ```
 
-php -S localhost:8000
+
+### Extras
+run php on mac: php -S localhost:8000
