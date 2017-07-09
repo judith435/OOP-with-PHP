@@ -55,25 +55,26 @@ You can find the main tester as the file `tester.php`, inside `hw` folder.
 
 ### Results expected
 ```
-Screen manufacturer: Samsung, model: S24F350FH, Price: 723, Size: 24
-Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129, Is wired: 
-Keyboard manufacturer: Microsoft, model: , Price: 325, Is wired: 1
+Screen manufacturer: Samsung, model: S24F350FH, Price: 723
+Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
+Keyboard manufacturer: Microsoft, model: , Price: 325
 Computer manufacturer: GIGABYTE, model: , Price: 3059
 
-Screen manufacturer: Samsung, model: C27F591FD, Price: 2074, Size: 27
-Mouse manufacturer: LogiTech, model: M185, Price: 128, Is wired: 1
-Keyboard manufacturer: Microsoft, model: , Price: 325, Is wired: 1
+Screen manufacturer: Samsung, model: C27F591FD, Price: 2074
+Mouse manufacturer: LogiTech, model: M185, Price: 128
+Keyboard manufacturer: Microsoft, model: , Price: 325
 Computer manufacturer: Intel, model: , Price: 1580
 
-Screen manufacturer: Philips, model: 273V5LHAB, Price: 1517, Size: 27
-Mouse manufacturer: LogiTech, model: MX Master, Price: 799, Is wired: 
-Keyboard manufacturer: Corsair, model: , Price: 799, Is wired: 1
+Screen manufacturer: Philips, model: 273V5LHAB, Price: 1517
+Mouse manufacturer: LogiTech, model: MX Master, Price: 799
+Keyboard manufacturer: Corsair, model: , Price: 799
 Computer manufacturer: GIGABYTE, model: , Price: 3059
 
-Screen manufacturer: Samsung, model: S22F350FH, Price: 620, Size: 21.5
-Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129, Is wired: 
-Keyboard manufacturer: Logitech, model: , Price: 285, Is wired: 1
+Screen manufacturer: Samsung, model: S22F350FH, Price: 620
+Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
+Keyboard manufacturer: Logitech, model: , Price: 285
 Computer manufacturer: AMD, model: , Price: 2418
+
 
 ```
 
