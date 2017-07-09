@@ -1,3 +1,4 @@
+<?php
 class Circle implements Shape {
   private $radius;
    
@@ -12,3 +13,4 @@ class Circle implements Shape {
     return $this -> radius * $this -> radius * pi();
   }
 }
+?>
