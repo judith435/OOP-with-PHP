@@ -1,3 +1,4 @@
+<?php
 class Rectangle implements Shape {
   private $width;
   private $height;
@@ -14,3 +15,4 @@ class Rectangle implements Shape {
     return $this -> width * $this -> height;
   }
 }
+?>
