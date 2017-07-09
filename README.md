@@ -24,7 +24,6 @@ You should make the files inside `hw` folder!
     * $manufacturer;
     * $price;
     * $model;
-    * priceAfterTax();
 
 3. Please create a new class called `Screen` that extends `ElectronicPart` and implements `IElectronicPart` with the following properties:
     * $size;
@@ -55,25 +54,25 @@ You can find the main tester as the file `tester.php`, inside `hw` folder.
 
 ### Results expected
 ```
-Screen manufacturer: Samsung, model: S24F350FH, Price: 0, Size: 24
-Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 0, Is wired: 
-Keyboard manufacturer: Microsoft, model: , Price: 0, Is wired: 1
-Computer manufacturer: GIGABYTE, model: , Price: 0
+Screen manufacturer: Samsung, model: S24F350FH, Price: 723, Size: 24
+Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129, Is wired: 
+Keyboard manufacturer: Microsoft, model: , Price: 325, Is wired: 1
+Computer manufacturer: GIGABYTE, model: , Price: 3059
 
-Screen manufacturer: Samsung, model: C27F591FD, Price: 0, Size: 27
-Mouse manufacturer: LogiTech, model: M185, Price: 0, Is wired: 1
-Keyboard manufacturer: Microsoft, model: , Price: 0, Is wired: 1
-Computer manufacturer: Intel, model: , Price: 0
+Screen manufacturer: Samsung, model: C27F591FD, Price: 2074, Size: 27
+Mouse manufacturer: LogiTech, model: M185, Price: 128, Is wired: 1
+Keyboard manufacturer: Microsoft, model: , Price: 325, Is wired: 1
+Computer manufacturer: Intel, model: , Price: 1580
 
-Screen manufacturer: Philips, model: 273V5LHAB, Price: 0, Size: 27
-Mouse manufacturer: LogiTech, model: MX Master, Price: 0, Is wired: 
-Keyboard manufacturer: Corsair, model: , Price: 0, Is wired: 1
-Computer manufacturer: GIGABYTE, model: , Price: 0
+Screen manufacturer: Philips, model: 273V5LHAB, Price: 1517, Size: 27
+Mouse manufacturer: LogiTech, model: MX Master, Price: 799, Is wired: 
+Keyboard manufacturer: Corsair, model: , Price: 799, Is wired: 1
+Computer manufacturer: GIGABYTE, model: , Price: 3059
 
-Screen manufacturer: Samsung, model: S22F350FH, Price: 0, Size: 21.5
-Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 0, Is wired: 
-Keyboard manufacturer: Logitech, model: , Price: 0, Is wired: 1
-Computer manufacturer: AMD, model: , Price: 0
+Screen manufacturer: Samsung, model: S22F350FH, Price: 620, Size: 21.5
+Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129, Is wired: 
+Keyboard manufacturer: Logitech, model: , Price: 285, Is wired: 1
+Computer manufacturer: AMD, model: , Price: 2418
 
 ```
 

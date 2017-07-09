@@ -1,4 +1,5 @@
 <?php
+require_once 'solution.php';
 
 $screen1 = new Screen('Samsung', 723, 'S24F350FH', 'PLS', 24);
 $screen2 = new Screen('Samsung', 620, 'S22F350FH', 'TN', 21.5);
