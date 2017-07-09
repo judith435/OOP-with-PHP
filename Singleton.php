@@ -24,4 +24,9 @@ final class UserFactory
 
     }
 }
+
+$fact = UserFactory::Instance();
+$fact2 = UserFactory::Instance();
+
+$fact = new UserFactory(); //error
 ?>
