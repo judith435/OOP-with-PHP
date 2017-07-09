@@ -14,7 +14,7 @@
 
 ## HW
 You should make the files inside `hw` folder!
-* Remeber: * all properies should be `private`
+*** Remeber: *** all properies should be `private`
 ### What to do
 1. Please create a new interface called `IElectronicPart` with the following signatures:
     * getSpecs()
