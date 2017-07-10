@@ -14,8 +14,12 @@
 
 ## HW
 You should make the files inside `hw` folder!
-
-**Remeber:** all properies should be `private`
+- **PLEASE: Keep your code human READBLE**
+- **Remeber:** all properies should be `private`
+- Each class should have a constructor
+- Write `get` and `set` functions if you want to change/read data.
+- You can write your own functions if you want, they must be `private`.
+- Each class/interface should have it's own file.
 ### What to do
 1. Please create a new interface called `IElectronicPart` with the following signatures:
     * getSpecs() 
@@ -74,10 +78,7 @@ Screen manufacturer: Samsung, model: S22F350FH, Price: 620
 Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
 Keyboard manufacturer: Logitech, model: , Price: 285
 Computer manufacturer: AMD, model: , Price: 2418
-
-
 ```
-
 
 ### Extras
 run php on mac: php -S localhost:8000
