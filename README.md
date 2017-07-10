@@ -22,13 +22,13 @@ You should make the files inside `hw` folder!
 - Each class/interface should have it's own file.
 ### What to do
 1. Please create a new interface called `IElectronicPart` with the following signatures:
-    * getSpecs() 
+    * `getSpecs()`
 Every class that implement this interface should write a `getSpecs()` function that return: Class name, manufacturer, model &amp; price. take a look at the Results expected. 
 
 2. Please create a new class called `ElectronicPart` with the following properties:
-    * $manufacturer;
-    * $price;
-    * $model;
+    * `$manufacturer`;
+    * `$price`;
+    * `$model`;
 
 3. Please create a new class called `Screen` that extends `ElectronicPart` and implements `IElectronicPart` with the following properties:
     * $size;
