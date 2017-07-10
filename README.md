@@ -31,28 +31,28 @@ Every class that implement this interface should write a `getSpecs()` function t
     * `$model`;
 
 3. Please create a new class called `Screen` that extends `ElectronicPart` and implements `IElectronicPart` with the following properties:
-    * $size;
-    * $panel;
+    * `$size`;
+    * `$panel`;
 
 4. Please create a new class called `Mouse` that extends `ElectronicPart` and implements `IElectronicPart` with the following properties:
-    * $isWired;
+    * `$isWired`;
 
 5. Please create a new class called `Keyboard` that extends `ElectronicPart` and implements `IElectronicPart` with the following properties:
-    * $isWired;
+    * `$isWired`;
 
 6. Please create a new class called `Computer` that extends `ElectronicPart` and implements `IElectronicPart` with the following properties:
-    * $motherboard;
-    * $processor;
-    * $hardDrive;
-    * $ram;
-    * $graphicCard;
+    * `$motherboard`;
+    * `$processor`;
+    * `$hardDrive`;
+    * `$ram`;
+    * `$graphicCard`;
 
 7. Please create a new class called `purchase` with the following properties:
-    * $screen;
-    * $mouse;
-    * $keyboard;
-    * $computer;
-    * getFullPurchaseDetails();
+    * `$screen`;
+    * `$mouse`;
+    * `$keyboard`;
+    * `$computer`;
+    * `getFullPurchaseDetails()`;
 
 ### Use the tester!
 You can find the main tester as the file `tester.php`, inside `hw` folder.
