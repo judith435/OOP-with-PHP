@@ -14,7 +14,7 @@
 
 ## HW
 You should make the files inside `hw` folder!
-- **PLEASE: Keep your code human READBLE**
+- **PLEASE: Keep your code human READABLE**
 - **Remeber:** all properies should be `private`
 - Each class should have a constructor
 - Write `get` and `set` functions if you want to change/read data.
