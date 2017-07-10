@@ -2,15 +2,35 @@
 
 ## What we have learned
 ### Class
+```php
+class nameOfCLass {
 
+}
+```
 ### Interface
+```php
+    interface nameOfInterface {
+        function methodToImplement();
+    }
+```
+
+```php
+class nameOfCLass implements nameOfInterface {
+    function methodToImplement() {
+        return "nameOfCLass must implement the function methodToImplement";
+    }
+}
+```
 
 ### Polymorphism
+In `ChocolateFactory.php` file, using Factory pattern.
 
 ### Design Pattern
 #### Factory
+```ChocolateFactory.php```
 
 #### Singleton
+```Singleton.php```
 
 ## HW
 You should make the files inside `hw` folder!
@@ -19,7 +39,7 @@ You should make the files inside `hw` folder!
 - Each class should have a constructor
 - Write `get` and `set` functions if you want to change/read data.
 - You can write your own functions if you want, they must be `private`.
-- Each class/interface should have it's own file.
+- Each class/interface should have it's own file (You don't must, but this is a best practice).
 ### What to do
 1. Please create a new interface called `IElectronicPart` with the following signatures:
     * `getSpecs()`
