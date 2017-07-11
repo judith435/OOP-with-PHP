@@ -1,7 +1,7 @@
 <?php
 require 'Circle.php';
 require 'Rectangle.php';
-require 'ChocolateFactory.php';
+// require 'ChocolateFactory.php';
 
 
 
