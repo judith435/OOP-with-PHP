@@ -52,8 +52,8 @@ $pur2 = new purchase($screen4, $mouse3, $keyboard1, $computer3);
 $pur3 = new purchase($screen3, $mouse2, $keyboard4, $computer1);
 $pur4 = new purchase($screen2, $mouse1, $keyboard2, $computer2);
 
-echo $pur1->getFullPurchaseDetails();
-echo $pur2->getFullPurchaseDetails();
-echo $pur3->getFullPurchaseDetails();
+echo $pur1->getFullPurchaseDetails() . '<br>';
+echo $pur2->getFullPurchaseDetails() . '<br>';
+echo $pur3->getFullPurchaseDetails() . '<br>';
 echo $pur4->getFullPurchaseDetails();
 ?>

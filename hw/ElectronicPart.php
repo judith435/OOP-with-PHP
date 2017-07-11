@@ -1,17 +1,18 @@
 <?php
 
-    class ElectronicPart {
+    require 'IElectronicPart.php';
+
+    class ElectronicPart implements IElectronicPart {
 
         private $manufacturer;
         private $price;
         private $model;
 
-        function __construct($manufacturer, $price, $model) {
+        function __construct($manufacturer, $price ,$model) {
             $this->setManufacturer($manufacturer);
             $this->setPrice($price);
             $this->setModel($model);
         }
-
 
         function setManufacturer($manufacturer) {
              $this->manufacturer = $manufacturer;
@@ -25,7 +26,6 @@
             $this->model = $model;
         }
 
-
         function getManufacturer() {
             return $this->manufacturer;
         }
@@ -36,6 +36,14 @@
 
         function getModel() {
             return  $this->model;
+        }
+
+        function getSpecs(){
+
+            return 'ElectronicPart: ' . '  manufacturer: '  . getManufacturer() .
+                                        '  price: '         . getPrice() .
+                                        '  model: '         . getModel();
+
         }
 
     }
