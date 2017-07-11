@@ -1,4 +1,5 @@
 <?php
+require 'Shape.php';
 class Circle implements Shape {
   private $radius;
    
