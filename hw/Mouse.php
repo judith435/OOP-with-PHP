@@ -1,8 +1,9 @@
 <?php
 
     require_once 'ElectronicPart.php';
+    require_once 'IElectronicPart.php';
 
-    class Mouse extends ElectronicPart {
+    class Mouse extends ElectronicPart implements IElectronicPart {
 
         private $isWired;
 
@@ -29,9 +30,15 @@
             return 'Mouse manufacturer: ' . parent::getManufacturer() .
                    ', model: '            . parent::getModel() . 
                    ', price: '            . parent::getPrice();
-                                // '  is wired: '     . $this->getIsWired();
         }
 
+        function print(){
+
+            return 'Mouse manufacturer: ' . parent::getManufacturer() .
+                   ', model: '            . parent::getModel() . 
+                   ', price: '            . parent::getPrice() .
+                   ', is wired: '         . $this->getIsWired();
+        }
 
     }
 

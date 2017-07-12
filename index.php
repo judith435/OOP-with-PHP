@@ -10,7 +10,7 @@ $snicky = WillyWonkaChocolateFactory::create('Snickers', array (
   121 => 'milk',
 ));
 
-echo($snicky->getReceipt()); // outputs "Bugatti Veyron"
+echo $snicky->getReceipt() . '<br>';; // outputs "Bugatti Veyron"
 
 $circ = new Circle(3);
 $rect = new Rectangle(3,4);

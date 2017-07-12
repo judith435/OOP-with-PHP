@@ -48,17 +48,35 @@
             return  $this->computer->getSpecs();
         }
 
+        function printScreen() {
+            return $this->screen->print();
+        }
+
+        function printMouse() {
+            return  $this->mouse->print();
+        }
+
+        function printKeyboard() {
+            return  $this->keyboard->print();
+        }
+
+        function printComputer() {
+            return  $this->computer->print();
+        }
+
+
 
         function getFullPurchaseDetails(){
 
             return $this->getScreen() . '<br>' . $this->getMouse() . '<br>' . $this->getKeyboard() . '<br>' . $this->getComputer() . '<br>';  
         }
 
+        function print(){
+
+            return $this->printScreen() . '<br>' . $this->printMouse() . '<br>' . $this->printKeyboard() . '<br>' . $this->printComputer() . '<br>';  
+        }
+
     }
 
 ?>
 
-<!--Screen manufacturer: Samsung, model: S24F350FH, Price: 723
-Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
-Keyboard manufacturer: Microsoft, model: , Price: 325
-Computer manufacturer: GIGABYTE, model: , Price: 3059-->

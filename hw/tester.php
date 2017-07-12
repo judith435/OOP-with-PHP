@@ -56,4 +56,10 @@ echo $pur1->getFullPurchaseDetails() . '<br>';
 echo $pur2->getFullPurchaseDetails() . '<br>';
 echo $pur3->getFullPurchaseDetails() . '<br>';
 echo $pur4->getFullPurchaseDetails();
+
+echo '<br><br><br><br>';
+echo $pur1->print() . '<br>';
+echo $pur2->print() . '<br>';
+echo $pur3->print() . '<br>';
+echo $pur4->print();
 ?>

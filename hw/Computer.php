@@ -1,8 +1,10 @@
 <?php
 
     require_once 'ElectronicPart.php';
+    require_once 'IElectronicPart.php';
 
-    class Computer extends ElectronicPart  {
+
+    class Computer extends ElectronicPart implements IElectronicPart {
 
         private $motherboard;
         private $processor;
@@ -72,13 +74,19 @@
             return 'Computer manufacturer: ' . parent::getManufacturer() .
                    ', model: '               . parent::getModel() . 
                    ', price: '               . parent::getPrice();
-
-                                //   '  motherboard: '   . $this->getMotherboard() . 
-                                //   '  processor: '     . $this->getProcessor() .
-                                //   '  hardDrive: '     . $this->getHardDrive() .
-                                //   '  ram: '           . $this->getRam() .
-                                //   '  graphicCard: '   . $this->getGraphicCard() ;
         }
+
+        function print(){
+            return 'Computer manufacturer: ' . parent::getManufacturer() .
+                   ', model: '               . parent::getModel() . 
+                   ', price: '               . parent::getPrice() .
+                   ', motherboard: '         . $this->getMotherboard() . 
+                   ', processor: '           . $this->getProcessor() .
+                   ', hardDrive: '           . $this->getHardDrive() .
+                   ', ram: '                 . $this->getRam() .
+                   ', graphicCard: '         . $this->getGraphicCard() ;
+        }
+
     }
 
 

@@ -1,8 +1,9 @@
 <?php
 
     require_once 'ElectronicPart.php';
+    require_once 'IElectronicPart.php';
 
-    class Screen extends ElectronicPart  {
+    class Screen extends ElectronicPart implements IElectronicPart  {
 
         private $size;
         private $panel;
@@ -41,8 +42,15 @@
             return 'Screen manufacturer: ' . parent::getManufacturer() .
                    ', model: '             . parent::getModel() . 
                    ', price: '             . parent::getPrice();
-                            //      '  size: '          . $this->getSize() . 
-                            //     '  panel: '         . $this->getPanel();
+        }
+
+        function print(){
+
+            return 'Screen manufacturer: ' . parent::getManufacturer() .
+                   ', model: '             . parent::getModel() . 
+                   ', price: '             . parent::getPrice() .
+                   ', size: '              . $this->getSize() . 
+                   ', panel: '             . $this->getPanel();
 
         }
 

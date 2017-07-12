@@ -1,8 +1,9 @@
 <?php
 
     require_once 'ElectronicPart.php';
+    require_once 'IElectronicPart.php';
 
-    class Keyboard extends ElectronicPart {
+    class Keyboard extends ElectronicPart implements IElectronicPart {
 
         private $isWired;
 
@@ -31,7 +32,12 @@
                                 //    '  is wired: '     . $this->getIsWired();
         }
 
-
+        function print(){
+            return 'Keyboard manufacturer: ' . parent::getManufacturer() .
+                   ', model: '               . parent::getModel() . 
+                   ', price: '               . parent::getPrice() .
+                   ', is wired: '            . $this->getIsWired();
+        }
     }
 
 

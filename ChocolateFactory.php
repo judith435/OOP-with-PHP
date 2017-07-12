@@ -13,7 +13,7 @@ class Chocolate
 
     public function getReceipt()
     {
-        return $this->chocolateName. ': '. $this->receipt;
+        return 'chocolate name ' . $this->chocolateName. ': receipt '. print_r($this->receipt);//$this->receipt;
     }
 }
 
