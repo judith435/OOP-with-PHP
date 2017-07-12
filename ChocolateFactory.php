@@ -6,13 +6,14 @@ class Chocolate
 
     public function __construct($name, $receipt)
     {
-        $this->cocolateName = $name;
-        $this->vehicleModel = $receipt;
+        $this->chocolateName = $name;
+        $this->receipt = $receipt;
     }
+
 
     public function getReceipt()
     {
-        return $this->name. ': '. $this->receipt;
+        return $this->chocolateName. ': '. $this->receipt;
     }
 }
 
@@ -25,12 +26,12 @@ class WillyWonkaChocolateFactory
 }
 
 // have the factory create the Chocolate object
-$snicky = WillyWonkaChocolateFactory::create('Snickers', array (
-  2 => 'sugar',
-  3 => 'chocolate',
-  4 => 'caramel',
-  121 => 'milk',
-));
+// $snicky = WillyWonkaChocolateFactory::create('Snickers', array (
+//   2 => 'sugar',
+//   3 => 'chocolate',
+//   4 => 'caramel',
+//   121 => 'milk',
+// ));
 
-print_r($snicky->getReceipt()); // outputs "Bugatti Veyron"
+// print_r($snicky->getReceipt()); // outputs "Bugatti Veyron"
 ?>
